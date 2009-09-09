@@ -1,6 +1,6 @@
 %define name     pfstmo
 %define version  1.0
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Tone mapping operators
 Name:           %{name}
