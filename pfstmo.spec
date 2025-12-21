@@ -13,6 +13,10 @@ Patch0: pfstmo-gcc4.patch.bz2
 Patch1: pfstmo-configure.patch.bz2
 URL: https://www.mpi-inf.mpg.de/resources/tmo/
 BuildRoot: %{_tmppath}/%{name}-root
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libpfs-devel fftw3-devel autoconf
 
 %description
